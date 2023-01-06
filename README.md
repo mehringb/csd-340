@@ -1,2 +1,4 @@
-# csd-340
-Repository for my Web Development with HTML and CSS with Professor Sue
+# CSD 340 Web Development with HTML and CSS
+## Contributors
+* Professor Sue
+* Bethany Mehring
