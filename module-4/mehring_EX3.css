@@ -1,0 +1,58 @@
+/*Bethany Mehring
+CSD340
+Module 4 Assignment: Build a Webpage Exercise, Part 3
+1/21/2023*/
+h1{
+    text-align: center;
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+}  
+#left{
+    width: 45%;
+    float: left;
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+} 
+#right{
+    width: 45%;
+    float: right;
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+} 
+
+#last{
+    float: right;
+    width: 100%;
+    margin-top: 60%;
+    margin-bottom: 20px;
+    text-align: right;
+}
+h3{
+    font-weight: 500;
+}
+li{
+    font-weight: 300;
+}
+ol{
+    list-style-position: inside;
+    border: 1px;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: red;
+    padding: 10px;
+}
+ul{
+    list-style-position: inside;
+    list-style-type: upper-roman;
+    border: 1px;
+    border-style: dashed;
+    border-radius: 15px;
+    border-color: red;
+    padding: 10px;
+}
+a{
+    font-family: 'Oswald', Verdana, Arial, sans-serif;
+    text-decoration: none;
+
+}
+a:hover{
+    text-decoration: underline;
+}
+
