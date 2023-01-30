@@ -27,7 +27,6 @@ h1,h3{
 figure{
     text-align: center;
 }
-
 figcaption{
     color: rgba(185, 63, 8);
     font-size: .75em;
@@ -37,4 +36,9 @@ figcaption{
 img{
     width: 350px;
     height: 400px;
+}
+a{
+    margin-top: 5%;
+    float: right;
+    text-align: right;
 }
