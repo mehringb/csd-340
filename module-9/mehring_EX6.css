@@ -30,13 +30,13 @@ h1{
 }
 #container{
     margin: 2% 5% 5% 100px;
-
     padding: 10px;
 }
 .card{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
     width: 50%;
+    padding: 5px;
 }
 .card-title{
     text-align: center;
@@ -83,6 +83,8 @@ footer a:hover{
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
+    background-color: #964f4cff;
+    color: white;
 }
 #movies td{
     border: 1px solid #ddd;
