@@ -14,7 +14,7 @@ h1{
 #navbar{
     overflow: hidden;
     background-color: #964f4cff;
-    border-bottom: 15px solid #696667ff;
+    border-bottom: 15px solid #567572FF;
 }
 #navbar a{
     float: left;
@@ -83,7 +83,7 @@ footer a:hover{
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
-    background-color: #964f4cff;
+    background-color: #567572FF;
     color: white;
 }
 #movies td{
