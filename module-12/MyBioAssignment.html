@@ -83,12 +83,8 @@
             }
             .container{
                 border-radius:5px;
-                padding: 20px;
+                padding: 10px;
                 text-align: center;
-            }
-            .contact{
-                padding: 30px;
-                margin: 10px;
             }
             .submit{
                 width: 200px;
@@ -111,11 +107,6 @@
                 }
                 .me{
                     width: 60%;
-                }
-                .container{
-                    width: 100%;
-                    display: block;
-                    margin-bottom: 10px;
                 }
             }
 
@@ -196,14 +187,18 @@
             <div class="container">
                 <form action="action.php">
                     <h2 class="contact">Contact Beth</h2>
-                    <label for="fname">First Name</label>
-                    <input type="userinput" id="fname" name="firstname" placeholder="Enter First Name..">
-
-                    <label for="lname">Last Name</label>
-                    <input type="userinput" id="lname" name="lastname" placeholder="Enter Last Name..">
-
-                    <label for="email">Email Address</label>
-                    <input type="userinput" id="email" name="emailaddress" placeholder="Enter Email Address..">
+                    <div class="grid">
+                        <label for="fname">First Name</label>
+                        <input type="userinput" id="fname" name="firstname" placeholder="Enter First Name..">
+                    </div>
+                    <div class="grid">
+                        <label for="lname">Last Name</label>
+                        <input type="userinput" id="lname" name="lastname" placeholder="Enter Last Name..">
+                    </div>
+                    <div class="grid">
+                        <label for="email">Email Address</label>
+                        <input type="userinput" id="email" name="emailaddress" placeholder="Enter Email Address..">
+                    </div>
                     <br><br>
                     <input type="submit" class="submit" value="Submit">
                 </form>
