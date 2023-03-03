@@ -83,4 +83,7 @@ h2.work{
     h1{
         font-size: 35px;
     }
+    .me{
+        width: auto;
+    }
 }
