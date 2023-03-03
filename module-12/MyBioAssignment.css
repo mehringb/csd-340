@@ -18,10 +18,9 @@ body{
     padding: 15px;
 }
 .grid-container{
-    margin: 10px;
-    padding: 10px;
+    margin: 5px;
+    padding: 5px;
     width: 100%;
-    margin-right: 0;
 }
 .grid-container:after{
     content: "";
@@ -31,7 +30,7 @@ body{
 .card-img{
     max-width: 100%;
     height: auto;
-    padding: 10px;
+    padding: 5px;
 }
 .card{
     box-shadow: 0 8px 8px 0 rgba(0,0,0,.75);
