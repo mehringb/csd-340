@@ -3,6 +3,8 @@ html{
     padding: 0px;
 }
 header{
+    background-color: plum;
+    width: 100%;
     text-align: center;
 }
 *{
