@@ -1,12 +1,13 @@
 html{
     margin: 0 0 0 0px;
     padding: 0px;
+    background-color: rgb(3, 78, 78,.25);
 }
 header{
     background-color: rgb(3, 78, 78);
     width: 100%;
     text-align: center;
-    height: 75px;
+    height: 85px;
     color: white;
     margin-top: 10px;
 
@@ -32,6 +33,7 @@ body{
     margin: 5px;
     padding: 5px;
     width: 100%;
+    text-align: center;
 }
 .grid-container:after{
     content: "";
@@ -51,10 +53,23 @@ body{
     background-color: rgb(3, 78, 78,.5);
     font-size: smaller;
 }
+.aboutme{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .me{
-    width: 100%;
+    width: 40%;
+}
+h2.hobbies{
     text-align: center;
 }
+h2.work{
+    text-align: center;
+}
+
+
 @media only screen and (max-width: 600px){
     .grid-item{
         width: 100%;
@@ -65,5 +80,7 @@ body{
         max-width: 50%;
         max-height: 50%;
     }
-
+    h1{
+        font-size: 35px;
+    }
 }
