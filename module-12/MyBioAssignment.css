@@ -1,16 +1,25 @@
 html{
-    margin: 0px;
+    margin: 0 0 0 0px;
     padding: 0px;
 }
 header{
-    background-color: plum;
+    background-color: rgb(3, 78, 78);
     width: 100%;
     text-align: center;
+    height: 75px;
+    color: white;
+    margin-top: 10px;
+
+}
+h1{
+    margin: 0px;
+    font-size: 60px;
 }
 *{
     box-sizing: border-box;
 }
 body{
+    margin: 0;
     font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 .grid-item{
@@ -35,12 +44,16 @@ body{
     padding: 5px;
 }
 .card{
-    box-shadow: 0 8px 8px 0 rgba(0,0,0,.75);
+    box-shadow: 0 8px 8px 0 rgba(3, 78, 78);
     padding: 16px;
     text-align: center;
     color: white;
-    background-color: teal;
+    background-color: rgb(3, 78, 78,.5);
     font-size: smaller;
+}
+.me{
+    width: 100%;
+    text-align: center;
 }
 @media only screen and (max-width: 600px){
     .grid-item{
